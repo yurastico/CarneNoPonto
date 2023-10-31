@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5F8087A2AF067FB00B103C3 /* CarneNoPonto Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C5F808792AF067FB00B103C3 /* CarneNoPonto Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C5F8087F2AF067FB00B103C3 /* CarneNoPontoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F8087E2AF067FB00B103C3 /* CarneNoPontoApp.swift */; };
+		C5F808812AF067FB00B103C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F808802AF067FB00B103C3 /* ContentView.swift */; };
+		C5F808862AF067FC00B103C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5F808852AF067FC00B103C3 /* Preview Assets.xcassets */; };
+		C5F808912AF0689F00B103C3 /* MeatTemperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F808902AF0689E00B103C3 /* MeatTemperature.swift */; };
+		C5F808932AF06DC300B103C3 /* TimeInterval+AsTimeStamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F808922AF06DC300B103C3 /* TimeInterval+AsTimeStamp.swift */; };
+		C5F808962AF072DA00B103C3 /* Double+roundedToPlaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F808952AF072DA00B103C3 /* Double+roundedToPlaces.swift */; };
+		C5F8089E2AF08B3300B103C3 /* CarneNoPontoIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F8089D2AF08B3300B103C3 /* CarneNoPontoIOSApp.swift */; };
+		C5F808A02AF08B3300B103C3 /* ContentIOSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F8089F2AF08B3300B103C3 /* ContentIOSView.swift */; };
+		C5F808A22AF08B3500B103C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5F808A12AF08B3500B103C3 /* Assets.xcassets */; };
+		C5F808A52AF08B3500B103C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5F808A42AF08B3500B103C3 /* Preview Assets.xcassets */; };
+		C5F808A92AF08C3B00B103C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F808802AF067FB00B103C3 /* ContentView.swift */; };
+		C5F808AA2AF08C4C00B103C3 /* Double+roundedToPlaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F808952AF072DA00B103C3 /* Double+roundedToPlaces.swift */; };
+		C5F808AB2AF08C6B00B103C3 /* MeatTemperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F808902AF0689E00B103C3 /* MeatTemperature.swift */; };
+		C5F808AC2AF08C7C00B103C3 /* TimeInterval+AsTimeStamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F808922AF06DC300B103C3 /* TimeInterval+AsTimeStamp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5F8087B2AF067FB00B103C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5F8086D2AF067FB00B103C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5F808782AF067FB00B103C3;
+			remoteInfo = "CarneNoPonto Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C5F8088C2AF067FC00B103C3 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C5F8087A2AF067FB00B103C3 /* CarneNoPonto Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C5F808732AF067FB00B103C3 /* CarneNoPonto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarneNoPonto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5F808792AF067FB00B103C3 /* CarneNoPonto Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CarneNoPonto Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5F8087E2AF067FB00B103C3 /* CarneNoPontoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarneNoPontoApp.swift; sourceTree = "<group>"; };
+		C5F808802AF067FB00B103C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C5F808852AF067FC00B103C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C5F808902AF0689E00B103C3 /* MeatTemperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeatTemperature.swift; sourceTree = "<group>"; };
+		C5F808922AF06DC300B103C3 /* TimeInterval+AsTimeStamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeInterval+AsTimeStamp.swift"; sourceTree = "<group>"; };
+		C5F808952AF072DA00B103C3 /* Double+roundedToPlaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+roundedToPlaces.swift"; sourceTree = "<group>"; };
+		C5F8089B2AF08B3300B103C3 /* CarneNoPontoIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarneNoPontoIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5F8089D2AF08B3300B103C3 /* CarneNoPontoIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarneNoPontoIOSApp.swift; sourceTree = "<group>"; };
+		C5F8089F2AF08B3300B103C3 /* ContentIOSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentIOSView.swift; sourceTree = "<group>"; };
+		C5F808A12AF08B3500B103C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5F808A42AF08B3500B103C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5F808762AF067FB00B103C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5F808982AF08B3300B103C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5F8086C2AF067FB00B103C3 = {
+			isa = PBXGroup;
+			children = (
+				C5F8087D2AF067FB00B103C3 /* CarneNoPonto Watch App */,
+				C5F8089C2AF08B3300B103C3 /* CarneNoPontoIOS */,
+				C5F808742AF067FB00B103C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5F808742AF067FB00B103C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5F808732AF067FB00B103C3 /* CarneNoPonto.app */,
+				C5F808792AF067FB00B103C3 /* CarneNoPonto Watch App.app */,
+				C5F8089B2AF08B3300B103C3 /* CarneNoPontoIOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5F8087D2AF067FB00B103C3 /* CarneNoPonto Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				C5F8087E2AF067FB00B103C3 /* CarneNoPontoApp.swift */,
+				C5F808952AF072DA00B103C3 /* Double+roundedToPlaces.swift */,
+				C5F808802AF067FB00B103C3 /* ContentView.swift */,
+				C5F808942AF06DF500B103C3 /* Extensions */,
+				C5F808902AF0689E00B103C3 /* MeatTemperature.swift */,
+				C5F808842AF067FC00B103C3 /* Preview Content */,
+			);
+			path = "CarneNoPonto Watch App";
+			sourceTree = "<group>";
+		};
+		C5F808842AF067FC00B103C3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C5F808852AF067FC00B103C3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C5F808942AF06DF500B103C3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C5F808922AF06DC300B103C3 /* TimeInterval+AsTimeStamp.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C5F8089C2AF08B3300B103C3 /* CarneNoPontoIOS */ = {
+			isa = PBXGroup;
+			children = (
+				C5F8089D2AF08B3300B103C3 /* CarneNoPontoIOSApp.swift */,
+				C5F8089F2AF08B3300B103C3 /* ContentIOSView.swift */,
+				C5F808A12AF08B3500B103C3 /* Assets.xcassets */,
+				C5F808A32AF08B3500B103C3 /* Preview Content */,
+			);
+			path = CarneNoPontoIOS;
+			sourceTree = "<group>";
+		};
+		C5F808A32AF08B3500B103C3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C5F808A42AF08B3500B103C3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5F808722AF067FB00B103C3 /* CarneNoPonto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5F8088D2AF067FC00B103C3 /* Build configuration list for PBXNativeTarget "CarneNoPonto" */;
+			buildPhases = (
+				C5F808712AF067FB00B103C3 /* Resources */,
+				C5F8088C2AF067FC00B103C3 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5F8087C2AF067FB00B103C3 /* PBXTargetDependency */,
+			);
+			name = CarneNoPonto;
+			productName = CarneNoPonto;
+			productReference = C5F808732AF067FB00B103C3 /* CarneNoPonto.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		C5F808782AF067FB00B103C3 /* CarneNoPonto Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5F808892AF067FC00B103C3 /* Build configuration list for PBXNativeTarget "CarneNoPonto Watch App" */;
+			buildPhases = (
+				C5F808752AF067FB00B103C3 /* Sources */,
+				C5F808762AF067FB00B103C3 /* Frameworks */,
+				C5F808772AF067FB00B103C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CarneNoPonto Watch App";
+			productName = "CarneNoPonto Watch App";
+			productReference = C5F808792AF067FB00B103C3 /* CarneNoPonto Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5F8089A2AF08B3300B103C3 /* CarneNoPontoIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5F808A62AF08B3500B103C3 /* Build configuration list for PBXNativeTarget "CarneNoPontoIOS" */;
+			buildPhases = (
+				C5F808972AF08B3300B103C3 /* Sources */,
+				C5F808982AF08B3300B103C3 /* Frameworks */,
+				C5F808992AF08B3300B103C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarneNoPontoIOS;
+			productName = CarneNoPontoIOS;
+			productReference = C5F8089B2AF08B3300B103C3 /* CarneNoPontoIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5F8086D2AF067FB00B103C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					C5F808722AF067FB00B103C3 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					C5F808782AF067FB00B103C3 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					C5F8089A2AF08B3300B103C3 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = C5F808702AF067FB00B103C3 /* Build configuration list for PBXProject "CarneNoPonto" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5F8086C2AF067FB00B103C3;
+			productRefGroup = C5F808742AF067FB00B103C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5F808722AF067FB00B103C3 /* CarneNoPonto */,
+				C5F808782AF067FB00B103C3 /* CarneNoPonto Watch App */,
+				C5F8089A2AF08B3300B103C3 /* CarneNoPontoIOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5F808712AF067FB00B103C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5F808772AF067FB00B103C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5F808862AF067FC00B103C3 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5F808992AF08B3300B103C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5F808A52AF08B3500B103C3 /* Preview Assets.xcassets in Resources */,
+				C5F808A22AF08B3500B103C3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5F808752AF067FB00B103C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5F808962AF072DA00B103C3 /* Double+roundedToPlaces.swift in Sources */,
+				C5F808932AF06DC300B103C3 /* TimeInterval+AsTimeStamp.swift in Sources */,
+				C5F808812AF067FB00B103C3 /* ContentView.swift in Sources */,
+				C5F8087F2AF067FB00B103C3 /* CarneNoPontoApp.swift in Sources */,
+				C5F808912AF0689F00B103C3 /* MeatTemperature.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5F808972AF08B3300B103C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5F808AC2AF08C7C00B103C3 /* TimeInterval+AsTimeStamp.swift in Sources */,
+				C5F808A02AF08B3300B103C3 /* ContentIOSView.swift in Sources */,
+				C5F808AA2AF08C4C00B103C3 /* Double+roundedToPlaces.swift in Sources */,
+				C5F8089E2AF08B3300B103C3 /* CarneNoPontoIOSApp.swift in Sources */,
+				C5F808AB2AF08C6B00B103C3 /* MeatTemperature.swift in Sources */,
+				C5F808A92AF08C3B00B103C3 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5F8087C2AF067FB00B103C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5F808782AF067FB00B103C3 /* CarneNoPonto Watch App */;
+			targetProxy = C5F8087B2AF067FB00B103C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C5F808872AF067FC00B103C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C5F808882AF067FC00B103C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C5F8088A2AF067FC00B103C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CarneNoPonto Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = DWNX563SG6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CarneNoPonto;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yurastico.CarneNoPonto.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		C5F8088B2AF067FC00B103C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CarneNoPonto Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = DWNX563SG6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CarneNoPonto;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yurastico.CarneNoPonto.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		C5F8088E2AF067FC00B103C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DWNX563SG6;
+				INFOPLIST_KEY_CFBundleDisplayName = CarneNoPonto;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yurastico.CarneNoPonto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C5F8088F2AF067FC00B103C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DWNX563SG6;
+				INFOPLIST_KEY_CFBundleDisplayName = CarneNoPonto;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yurastico.CarneNoPonto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5F808A72AF08B3500B103C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CarneNoPontoIOS/Preview Content\"";
+				DEVELOPMENT_TEAM = DWNX563SG6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yurastico.CarneNoPontoIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5F808A82AF08B3500B103C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CarneNoPontoIOS/Preview Content\"";
+				DEVELOPMENT_TEAM = DWNX563SG6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yurastico.CarneNoPontoIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5F808702AF067FB00B103C3 /* Build configuration list for PBXProject "CarneNoPonto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5F808872AF067FC00B103C3 /* Debug */,
+				C5F808882AF067FC00B103C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5F808892AF067FC00B103C3 /* Build configuration list for PBXNativeTarget "CarneNoPonto Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5F8088A2AF067FC00B103C3 /* Debug */,
+				C5F8088B2AF067FC00B103C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5F8088D2AF067FC00B103C3 /* Build configuration list for PBXNativeTarget "CarneNoPonto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5F8088E2AF067FC00B103C3 /* Debug */,
+				C5F8088F2AF067FC00B103C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5F808A62AF08B3500B103C3 /* Build configuration list for PBXNativeTarget "CarneNoPontoIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5F808A72AF08B3500B103C3 /* Debug */,
+				C5F808A82AF08B3500B103C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5F8086D2AF067FB00B103C3 /* Project object */;
+}
